@@ -70,26 +70,40 @@ namespace BancoSimple2M5
             }
         }
 
-        // Abre el formulario AgregarCuentas, para agregar una nueva cuenta al cliente seleccionado
+       // Evento que se ejecuta al hacer clic en el bot贸n "Agregar Cuenta".
+       // Verifica si hay un cliente seleccionado en el DataGridView, abre el formulario para agregar una nueva cuenta
+       // y si el usuario confirma la acci贸n, guarda la nueva cuenta en la base de datos.
         private void btnAgregarCuenta_Click(object sender, EventArgs e)
         {
+            // Verifica si hay una fila seleccionada en el DataGridView de clientes.
             if (dgvClientes.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Seleccione un cliente primero", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
+                return;// Si no hay selecci贸n, detiene la ejecuci贸n.
             }
+            // Obtiene el ID del cliente seleccionado desde la celda "ClienteId".
             var clienteId = (int)dgvClientes.SelectedRows[0].Cells["ClienteId"].Value;
+        
+            // Crea e instancia el formulario para agregar cuentas, pasando el ID del cliente como par谩metro.
             var formAgregarCuentas = new AgregarCuentasForm(clienteId);
+        
+            // Muestra el formulario como un cuadro de di谩logo modal.
             if (formAgregarCuentas.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
+                    // Si el usuario confirm贸 (OK), agrega la nueva cuenta al contexto de base de datos.
                     _db.Cuentas.Add(formAgregarCuentas.NuevaCuenta);
+        
+                    // Guarda los cambios en la base de datos.
                     _db.SaveChanges();
+        
+                    // Recarga los datos visualizados para reflejar los cambios.
                     CargarDatos();
                 }
                 catch (Exception ex)
                 {
+                    // Muestra un mensaje de error si ocurre una excepci贸n durante el guardado.
                     MessageBox.Show($"Error inesperado al abrir el formulario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -139,7 +153,7 @@ namespace BancoSimple2M5
                 {
                     //Reversion de transacciones
                     transaccion.Rollback();
-                    MessageBox.Show($"Error inesperado al momento de realizar la transacci髇: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Error inesperado al momento de realizar la transacci贸n: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -244,7 +258,7 @@ namespace BancoSimple2M5
                 {
                     if (string.IsNullOrEmpty(txtBuscar.Text))
                     {
-                        MessageBox.Show("Ingrese una identificaci髇 para buscar");
+                        MessageBox.Show("Ingrese una identificaci贸n para buscar");
                         return;
                     }
                     // busqueda con patrones con like
@@ -269,7 +283,7 @@ namespace BancoSimple2M5
                 {
                     if (!int.TryParse(txtBuscar.Text, out int id))
                     {
-                        MessageBox.Show("Ingrese un ID v醠ido (n鷐ero entero).");
+                        MessageBox.Show("Ingrese un ID v谩lido (n煤mero entero).");
                         return;
                     }
                     // busqueda con patrones con like
@@ -333,7 +347,7 @@ namespace BancoSimple2M5
                 {
                     if (string.IsNullOrEmpty(txtBuscarEnCuentas.Text))
                     {
-                        MessageBox.Show("Ingrese un n鷐ero de cuenta para buscar.");
+                        MessageBox.Show("Ingrese un n煤mero de cuenta para buscar.");
                         return;
                     }
 
@@ -356,7 +370,7 @@ namespace BancoSimple2M5
                 {
                     if (!int.TryParse(txtBuscarEnCuentas.Text, out int cuentaId))
                     {
-                        MessageBox.Show("Ingrese un ID de cuenta v醠ido (n鷐ero entero).");
+                        MessageBox.Show("Ingrese un ID de cuenta v谩lido (n煤mero entero).");
                         return;
                     }
 
@@ -379,7 +393,7 @@ namespace BancoSimple2M5
                 {
                     if (!int.TryParse(txtBuscarEnCuentas.Text, out int clienteId))
                     {
-                        MessageBox.Show("Ingrese un ID de cliente v醠ido (n鷐ero entero).");
+                        MessageBox.Show("Ingrese un ID de cliente v谩lido (n煤mero entero).");
                         return;
                     }
 
@@ -425,7 +439,7 @@ namespace BancoSimple2M5
                 {
                     if (!decimal.TryParse(txtBuscarEnCuentas.Text, out decimal saldo))
                     {
-                        MessageBox.Show("Ingrese un valor de saldo v醠ido (n鷐ero decimal).");
+                        MessageBox.Show("Ingrese un valor de saldo v谩lido (n煤mero decimal).");
                         return;
                     }
                     var cuentas = _db.Cuentas
@@ -446,7 +460,7 @@ namespace BancoSimple2M5
                 // Limpiar campos y mensajes si no hay resultados
                 if (dgvCuentas.Rows.Count == 0)
                 {
-                    MessageBox.Show("No se encontraron cuentas.", "B鷖queda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("No se encontraron cuentas.", "B煤squeda", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     CargarDatos(); // recarga todas las cuentas si ninguna fue encontrada
                 }
 
