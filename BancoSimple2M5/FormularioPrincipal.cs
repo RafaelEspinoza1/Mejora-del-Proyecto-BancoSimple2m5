@@ -70,15 +70,32 @@ namespace BancoSimple2M5
             }
         }
 
+<<<<<<< HEAD
+        // Evento que se ejecuta al hacer clic en el botón "Agregar Cuenta".
+        // Verifica si hay un cliente seleccionado en el DataGridView, abre el formulario para agregar una nueva cuenta
+        // y si el usuario confirma la acción, guarda la nueva cuenta en la base de datos.
+=======
        // Evento que se ejecuta al hacer clic en el botÃ³n "Agregar Cuenta".
        // Verifica si hay un cliente seleccionado en el DataGridView, abre el formulario para agregar una nueva cuenta
        // y si el usuario confirma la acciÃ³n, guarda la nueva cuenta en la base de datos.
+>>>>>>> 8f9a76ca8239dd6aba497567d83ed1a1f426b787
         private void btnAgregarCuenta_Click(object sender, EventArgs e)
         {
             // Verifica si hay una fila seleccionada en el DataGridView de clientes.
             if (dgvClientes.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Seleccione un cliente primero", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+<<<<<<< HEAD
+                return;// Si no hay selección, detiene la ejecución.
+            }
+            // Obtiene el ID del cliente seleccionado desde la celda "ClienteId".
+            var clienteId = (int)dgvClientes.SelectedRows[0].Cells["ClienteId"].Value;
+
+            // Crea e instancia el formulario para agregar cuentas, pasando el ID del cliente como parámetro.
+            var formAgregarCuentas = new AgregarCuentasForm(clienteId);
+
+            // Muestra el formulario como un cuadro de diálogo modal.
+=======
                 return;// Si no hay selecciÃ³n, detiene la ejecuciÃ³n.
             }
             // Obtiene el ID del cliente seleccionado desde la celda "ClienteId".
@@ -88,22 +105,36 @@ namespace BancoSimple2M5
             var formAgregarCuentas = new AgregarCuentasForm(clienteId);
         
             // Muestra el formulario como un cuadro de diÃ¡logo modal.
+>>>>>>> 8f9a76ca8239dd6aba497567d83ed1a1f426b787
             if (formAgregarCuentas.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
+<<<<<<< HEAD
+                    // Si el usuario confirmó (OK), agrega la nueva cuenta al contexto de base de datos.
+                    _db.Cuentas.Add(formAgregarCuentas.NuevaCuenta);
+
+                    // Guarda los cambios en la base de datos.
+                    _db.SaveChanges();
+
+=======
                     // Si el usuario confirmÃ³ (OK), agrega la nueva cuenta al contexto de base de datos.
                     _db.Cuentas.Add(formAgregarCuentas.NuevaCuenta);
         
                     // Guarda los cambios en la base de datos.
                     _db.SaveChanges();
         
+>>>>>>> 8f9a76ca8239dd6aba497567d83ed1a1f426b787
                     // Recarga los datos visualizados para reflejar los cambios.
                     CargarDatos();
                 }
                 catch (Exception ex)
                 {
+<<<<<<< HEAD
+                    // Muestra un mensaje de error si ocurre una excepción durante el guardado.
+=======
                     // Muestra un mensaje de error si ocurre una excepciÃ³n durante el guardado.
+>>>>>>> 8f9a76ca8239dd6aba497567d83ed1a1f426b787
                     MessageBox.Show($"Error inesperado al abrir el formulario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
