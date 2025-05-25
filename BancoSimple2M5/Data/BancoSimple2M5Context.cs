@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BancoSimple2M5.Data
 {
-    //Se hereda de la palabra reservada Dbcontext para obtener informacion del sql Y sus caracteristicas
+    //Se hereda de la palabra reservada Dbcontext para obtener informacion del sql
     public class BancoSimple2M5Context : DbContext
     {
         public DbSet <Cliente> Clientes { get; set; } 
