@@ -28,91 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            components = new System.ComponentModel.Container();
+            lblNombre = new Label();
             txtNombre = new TextBox();
             btnAceptar = new Button();
-            txtIdentificacion = new TextBox();
-            label2 = new Label();
+            lblIdentificacion = new Label();
             btnCancelar = new Button();
+            maskedTextBoxIdentificacion = new MaskedTextBox();
+            toolTip1 = new ToolTip(components);
             SuspendLayout();
             // 
-            // label1
+            // lblNombre
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(28, 16);
-            label1.Name = "label1";
-            label1.Size = new Size(64, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Nombre";
+            lblNombre.AutoSize = true;
+            lblNombre.Location = new Point(24, 18);
+            lblNombre.Name = "lblNombre";
+            lblNombre.Size = new Size(54, 15);
+            lblNombre.TabIndex = 0;
+            lblNombre.Text = "Nombre:";
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(231, 13);
+            txtNombre.Cursor = Cursors.IBeam;
+            txtNombre.Location = new Point(202, 10);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(168, 27);
+            txtNombre.Size = new Size(148, 23);
             txtNombre.TabIndex = 1;
             // 
             // btnAceptar
             // 
-            btnAceptar.Location = new Point(28, 146);
+            btnAceptar.Cursor = Cursors.Hand;
+            btnAceptar.Location = new Point(24, 94);
+            btnAceptar.Margin = new Padding(3, 2, 3, 2);
             btnAceptar.Name = "btnAceptar";
-            btnAceptar.Size = new Size(113, 52);
+            btnAceptar.Size = new Size(99, 39);
             btnAceptar.TabIndex = 2;
             btnAceptar.Text = "Aceptar";
             btnAceptar.UseVisualStyleBackColor = true;
             btnAceptar.Click += btnAceptar_Click;
             // 
-            // txtIdentificacion
+            // lblIdentificacion
             // 
-            txtIdentificacion.Location = new Point(231, 70);
-            txtIdentificacion.Name = "txtIdentificacion";
-            txtIdentificacion.Size = new Size(168, 27);
-            txtIdentificacion.TabIndex = 4;
-            txtIdentificacion.TextChanged += textBox2_TextChanged;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(28, 70);
-            label2.Name = "label2";
-            label2.Size = new Size(99, 20);
-            label2.TabIndex = 3;
-            label2.Text = "Identificacion";
+            lblIdentificacion.AutoSize = true;
+            lblIdentificacion.Location = new Point(24, 60);
+            lblIdentificacion.Name = "lblIdentificacion";
+            lblIdentificacion.Size = new Size(82, 15);
+            lblIdentificacion.TabIndex = 3;
+            lblIdentificacion.Text = "Identificación:";
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(220, 146);
+            btnCancelar.Cursor = Cursors.Hand;
+            btnCancelar.Location = new Point(186, 94);
+            btnCancelar.Margin = new Padding(3, 2, 3, 2);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(113, 52);
+            btnCancelar.Size = new Size(99, 39);
             btnCancelar.TabIndex = 5;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
             btnCancelar.Click += btnCancelar_Click;
             // 
+            // maskedTextBoxIdentificacion
+            // 
+            maskedTextBoxIdentificacion.Cursor = Cursors.IBeam;
+            maskedTextBoxIdentificacion.Location = new Point(202, 52);
+            maskedTextBoxIdentificacion.Mask = "000-000000-0000a";
+            maskedTextBoxIdentificacion.Name = "maskedTextBoxIdentificacion";
+            maskedTextBoxIdentificacion.Size = new Size(100, 23);
+            maskedTextBoxIdentificacion.TabIndex = 6;
+            // 
             // AgregarClienteForms
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(497, 210);
+            ClientSize = new Size(379, 149);
+            Controls.Add(maskedTextBoxIdentificacion);
             Controls.Add(btnCancelar);
-            Controls.Add(txtIdentificacion);
-            Controls.Add(label2);
+            Controls.Add(lblIdentificacion);
             Controls.Add(btnAceptar);
             Controls.Add(txtNombre);
-            Controls.Add(label1);
+            Controls.Add(lblNombre);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "AgregarClienteForms";
-            Text = "Form2";
+            Text = "Agregar cliente";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Label lblNombre;
         private TextBox txtNombre;
         private Button btnAceptar;
-        private TextBox txtIdentificacion;
-        private Label label2;
+        private Label lblIdentificacion;
         private Button btnCancelar;
+        private MaskedTextBox maskedTextBoxIdentificacion;
+        private ToolTip toolTip1;
     }
 }

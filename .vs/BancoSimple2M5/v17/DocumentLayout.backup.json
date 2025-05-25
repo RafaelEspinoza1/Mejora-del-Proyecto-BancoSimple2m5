@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\formularioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\bancosimple2m5\\transferenciaforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\transferenciaforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\bancosimple2m5\\vertransferencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\vertransferencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\transferenciaforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\transferenciaforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\bancosimple2m5\\agregarcuentasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\agregarcuentasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\bancosimple2m5\\agregarclienteforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\agregarclienteforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\vertransferencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\vertransferencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\agregarclienteforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\agregarclienteforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\agregarcuentasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\agregarcuentasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\formularioprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\formularioprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\agregarclienteforms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\agregarclienteforms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\data\\bancosimple2m5context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\data\\bancosimple2m5context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|c:\\users\\rafae\\source\\repos\\bancosimple2m5\\bancosimple2m5\\bancosimple2m5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2F1537AF-B3EA-4CA2-82DB-30D2F93721A3}|BancoSimple2M5\\BancoSimple2M5.csproj|solutionrelative:bancosimple2m5\\bancosimple2m5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransferenciaForms.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\TransferenciaForms.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\TransferenciaForms.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\TransferenciaForms.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BancoSimple2M5\\TransferenciaForms.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:47:47.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormularioPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\FormularioPrincipal.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\FormularioPrincipal.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\FormularioPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BancoSimple2M5\\FormularioPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:15:58.386Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerTransferencias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\VerTransferencias.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\VerTransferencias.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\VerTransferencias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BancoSimple2M5\\VerTransferencias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:28:41.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransferenciaForms.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\TransferenciaForms.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\TransferenciaForms.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\TransferenciaForms.cs",
+              "RelativeToolTip": "BancoSimple2M5\\TransferenciaForms.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:24:16.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormularioPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\FormularioPrincipal.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\FormularioPrincipal.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\FormularioPrincipal.cs",
+              "RelativeToolTip": "BancoSimple2M5\\FormularioPrincipal.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAApwLEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:42:07.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgregarCuentasForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarCuentasForm.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\AgregarCuentasForm.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarCuentasForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BancoSimple2M5\\AgregarCuentasForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:40:33.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AgregarClienteForms.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarClienteForms.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\AgregarClienteForms.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarClienteForms.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BancoSimple2M5\\AgregarClienteForms.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:44:49.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerTransferencias.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\VerTransferencias.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\VerTransferencias.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\VerTransferencias.cs",
+              "RelativeToolTip": "BancoSimple2M5\\VerTransferencias.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:29:25.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgregarClienteForms.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarClienteForms.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\AgregarClienteForms.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarClienteForms.cs",
+              "RelativeToolTip": "BancoSimple2M5\\AgregarClienteForms.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:46:13.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AgregarCuentasForm.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarCuentasForm.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\AgregarCuentasForm.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarCuentasForm.cs",
+              "RelativeToolTip": "BancoSimple2M5\\AgregarCuentasForm.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:45:07.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Models\\Cuenta.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\Models\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Models\\Cuenta.cs",
+              "RelativeToolTip": "BancoSimple2M5\\Models\\Cuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:13:12.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Models\\Cliente.cs",
+              "RelativeToolTip": "BancoSimple2M5\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:11:54.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Models\\Transaccion.cs",
+              "RelativeToolTip": "BancoSimple2M5\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:18:36.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BancoSimple2M5Context.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Data\\BancoSimple2M5Context.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\Data\\BancoSimple2M5Context.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\Data\\BancoSimple2M5Context.cs",
+              "RelativeToolTip": "BancoSimple2M5\\Data\\BancoSimple2M5Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:22:46.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BancoSimple2M5.csproj",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\BancoSimple2M5.csproj",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\BancoSimple2M5.csproj",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\BancoSimple2M5.csproj",
+              "RelativeToolTip": "BancoSimple2M5\\BancoSimple2M5.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T17:11:19.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AgregarClienteForms.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarClienteForms.Designer.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\AgregarClienteForms.Designer.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\AgregarClienteForms.Designer.cs",
+              "RelativeToolTip": "BancoSimple2M5\\AgregarClienteForms.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:39:33.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormularioPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\FormularioPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "BancoSimple2M5\\FormularioPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\rafae\\source\\repos\\BancoSimple2M5\\BancoSimple2M5\\FormularioPrincipal.Designer.cs",
+              "RelativeToolTip": "BancoSimple2M5\\FormularioPrincipal.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:18:49.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

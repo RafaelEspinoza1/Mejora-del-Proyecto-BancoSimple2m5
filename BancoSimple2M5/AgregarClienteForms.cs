@@ -17,33 +17,45 @@ namespace BancoSimple2M5
         public AgregarClienteForms()
         {
             InitializeComponent();
+            toolTip1.SetToolTip(maskedTextBoxIdentificacion, "deben ser 13 numeros y una letra al final");
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        // Agrega un nuevo cliente a la base de datos
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtIdentificacion.Text))
+            try
             {
-                MessageBox.Show("Todos los campos son necesarios");
-                return;
+                if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(maskedTextBoxIdentificacion.Text))
+                {
+                    MessageBox.Show("Todos los campos son necesarios");
+                    return;
+                }
+                NuevoCliente = new Cliente
+                {
+                    Nombre = txtNombre.Text,
+                    Identificacion = maskedTextBoxIdentificacion.Text
+                };
+                DialogResult = DialogResult.OK;
+                Close();
             }
-            NuevoCliente = new Cliente
+            catch (Exception ex)
             {
-                Nombre = txtNombre.Text,
-                Identificacion = txtIdentificacion.Text
-            };
-            DialogResult = DialogResult.OK;
-            Close();
-        }
+                MessageBox.Show($"Error inesperado al agregar cliente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+            }
+        }
+        // Cierra el formulario
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.Cancel;
-            Close();
+            try
+            {
+                DialogResult = DialogResult.Cancel;
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error inesperado al cerrar el formulario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
         }
     }
 }

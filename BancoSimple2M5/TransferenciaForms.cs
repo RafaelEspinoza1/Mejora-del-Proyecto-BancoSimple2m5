@@ -25,38 +25,64 @@ namespace BancoSimple2M5
             _cuentaOrigenId = cuentaOrigenId;
             db = new BancoSimple2M5Context();
             CargarDatosCuentas();
+            toolTip1.SetToolTip(numMonto, "Transferencia maxima de 200 dolares");
         }
+        // Carga los datos de las cuentas origen y destino en los labels
         private void CargarDatosCuentas()
         {
-            var cuentaOrigen = db.Cuentas.Include(c => c.Cliente).
+            try
+            {
+                var cuentaOrigen = db.Cuentas.Include(c => c.Cliente).
                 First(c => c.CuentaId == _cuentaOrigenId);
-            var cuentaDestino = db.Cuentas.Include(c => c.Cliente).
-               First(c => c.CuentaId == _cuentaDestinoId);
+                var cuentaDestino = db.Cuentas.Include(c => c.Cliente).
+                   First(c => c.CuentaId == _cuentaDestinoId);
 
-            lblOrigen.Text = $"CUENTA ORIGEN: {cuentaOrigen.Cliente.Nombre} - {cuentaOrigen.NumeroCuenta}";
-            lblDestino.Text = $"CUENTA Destino: {cuentaDestino.Cliente.Nombre} - {cuentaDestino.NumeroCuenta}";
-            lblMonto.Text = $"Saldo disponible: {cuentaOrigen.Saldo}";
+                lblOrigen.Text = $"CUENTA ORIGEN: {cuentaOrigen.Cliente.Nombre} - {cuentaOrigen.NumeroCuenta}";
+                lblDestino.Text = $"CUENTA Destino: {cuentaDestino.Cliente.Nombre} - {cuentaDestino.NumeroCuenta}";
+                lblMonto.Text = $"Saldo disponible: {cuentaOrigen.Saldo}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error inerperado al cargar los datos de las cuentas: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+
+            }
         }
-
+        // Metodo que permite realizar la transferencia de dinero entre cuentas
         private void btnTransferir_Click(object sender, EventArgs e)
         {
-            if (numMonto.Value > 0)
+            try
             {
-                Monto = numMonto.Value;
-                DialogResult = DialogResult.OK;
-                Close();
+                if (numMonto.Value > 0)
+                {
+                    Monto = numMonto.Value;
+                    DialogResult = DialogResult.OK;
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Ingrese un mnot valido mayor a 0");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Ingrese un mnot valido mayor a 0");
+                MessageBox.Show($"Error inesperado al realizar la transferencia: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
         }
-
+        // Cierra el formulario sin realizar la transferencia
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.Cancel;
-            Close();
+            try
+            {
+                DialogResult = DialogResult.Cancel;
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error inesperado al cerrar el formulario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
         }
     }
 }
